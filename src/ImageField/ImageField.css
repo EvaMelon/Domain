@@ -1,0 +1,13 @@
+.button .inner-input {
+  display:none;
+}
+
+.image-field-button {
+  background-color: #768E9C;
+  box-shadow: 0 2px #51646F;
+}
+  
+.create-hcard-button {
+  background-color: #43A5D9;
+  box-shadow: 0 2px #3793C3;
+}

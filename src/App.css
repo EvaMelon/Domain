@@ -1,0 +1,81 @@
+.app {
+  /* margin-left: 40px; */
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .app {
+      display: block;
+  }
+}
+
+form fieldset {
+  border: none;
+  padding: 0;
+}
+
+.hcard-builder {
+  padding: 40px 40px 30px;
+}
+
+.app-header {
+  color: #3A4F62;
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.button {
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 30px 0;
+  color: #97A0A8;
+}
+
+.field {
+  font-size: 13px;
+  color: #3A4F62;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.section-header {
+  color: #BDC5C8;
+  border-bottom: 1px solid #BDC5C8;
+  width: 100%;
+  font-size: 15px;
+}
+
+.button-avatar-wrapper,
+.button-create-hcard-wrapper {
+  display: inline;
+  padding-right: 15px;
+}
+
+.field label,
+legend {
+  text-transform: uppercase;
+}
+
+.field input {
+  border: 1px solid #D4D5D4;
+  padding-left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  display: block;
+  height: 30px;
+  width: 185px;
+  border-radius: 5px;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 30px white inset;
+}
