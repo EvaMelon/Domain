@@ -37,8 +37,7 @@ export default class HCard extends Component {
 
                         <div className="preview-field">
                             <span className="preview-field-label preview-address">address</span>
-                            <span className="preview-field-value street-address">{this.props.house}</span>
-                            <span className="preview-field-value street-address">{this.props.street}</span>
+                            <span className="preview-field-value street-address">{this.props.house + ' '}{this.props.street}</span>
                         </div>
 
                         <div className="preview-field">
