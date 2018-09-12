@@ -43,6 +43,8 @@
 
 .preview-field-group .preview-field {
   flex-grow: 1;
+  width:50%;
+  box-sizing: border-box;
 }
 
 .avatar {
